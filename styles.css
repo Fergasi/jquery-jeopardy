@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    vertical-align: top;
+    box-sizing: border-box;
+    background-color: rgb(236, 240, 240);
+}
+
+.container{
+    width: 1200px;
+    margin: 0;
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(18, 31, 146);
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#headSec{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+#hundreds,
+#twoHundreds,
+#fourHundreds,
+#sixHundreds,
+#eightHundreds{
+    display: flex;
+    justify-content: center;
+}
+
+.titles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    color: rgba(236, 223, 30, 0.911);
+    background-color: rgba(40, 5, 238, 0.808);
+    font-size: large;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1px;
+    padding: 1px;
+    
+
+}
+
+.titles:hover{
+    background-color: rgba(42, 211, 118, 0.63);
+    border: 1px solid yellowgreen;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(20, 18, 146);
+    font-size: x-large;
+    font-weight: 600;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+#submit{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(18, 146, 93, 0.767);
+    width: 70px;
+    height: 30px;
+    color: black;
+    border: 2px solid black;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#reset{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(160, 29, 12, 0.767);
+    width: 90px;
+    height: 30px;
+    color: black;
+    border: 2px solid black;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bottom{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#answer{
+    width: 400px;
+    border: 2px solid rgb(11, 11, 12);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    height: 25px;
+    padding-left: 5px;
+}
+
+#question{
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: x-large;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#message{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: large;
+    color: rgb(214, 11, 11);
+}
+
+#score{
+    color: black;
+    font-weight: lighter;
+    font-weight: 700;
+}

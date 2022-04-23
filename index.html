@@ -4,11 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Jquery Jeopardy</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="container">
+        <header>
+            <div id="headSec">
+                <h1>Jeopardy.js</h1>
+                <h3 id="score"></h3>
+            </div>
+        </header>
+
+
+
+        <main>
+            <div id="grid">
+                <div id="hundreds">
+                    <div class="100 titles" id="a1">$100</div>
+                    <div class="100 titles" id="a2">$100</div>
+                    <div class="100 titles" id="a3">$100</div>
+                    <div class="100 titles" id="a4">$100</div>
+                    <div class="100 titles" id="a5">$100</div>
+                </div>
+
+                <div id="twoHundreds">
+                    <div class="200 titles" id="b1">$200</div>
+                    <div class="200 titles" id="b2">$200</div>
+                    <div class="200 titles" id="b3">$200</div>
+                    <div class="200 titles" id="b4">$200</div>
+                    <div class="200 titles" id="b5">$200</div>
+                </div>
+
+                <div id="fourHundreds">
+                    <div class="400 titles" id="c1">$400</div>
+                    <div class="400 titles" id="c2">$400</div>
+                    <div class="400 titles" id="c3">$400</div>
+                    <div class="400 titles" id="c4">$400</div>
+                    <div class="400 titles" id="c5">$400</div>
+                </div>
+
+                <div id="sixHundreds">
+                    <div class="600 titles" id="d1">$600</div>
+                    <div class="600 titles" id="d2">$600</div>
+                    <div class="600 titles" id="d3">$600</div>
+                    <div class="600 titles" id="d4">$600</div>
+                    <div class="600 titles" id="d5">$600</div>
+                </div>
+
+                <div id="eightHundreds">
+                    <div class="800 titles" id="e1">$800</div>
+                    <div class="800 titles" id='e2'>$800</div>
+                    <div class="800 titles" id="e3">$800</div>
+                    <div class="800 titles" id="e4">$800</div>
+                    <div class="800 titles" id="e5">$800</div>
+                </div>
+
+                <div id="question">
+                    Question: 
+                </div>
+                <div id="message">
+                    &nbsp
+                </div>
     
+        </main>
+
+        <footer>
+            <form id="form">
+                <div id="input">
+                    <label class="bottom">Your Answer:</label>
+                    <input placeholder="Type Answer Here" class="bottom" type="text" id="answer" autocomplete="off">
+                </div>
+                <div id="buttons">
+                    <div id="submitButton">
+                        <input id="submit" type="submit" value="Submit"/>
+                    </div>
+                    <div id="resetButton">
+                        <input id="reset" type="reset" value="Reset Game"/>
+                    </div>
+                </div>
+            </form>
+        </footer>
+
+    </div>
+
     <script src="jeopardy.json"></script>
     <script src="main.js"></script>
 </body>
